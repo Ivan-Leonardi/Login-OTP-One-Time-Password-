@@ -16,7 +16,7 @@
 - Express
 - Typescript
 - JWT
-- Postres
+- Postgres
 - Prisma
 - zod
 - Mailtrap
@@ -130,7 +130,6 @@ Principais rotas
 **RESPONSE**
 ```json
 {
-	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzMwNTUxNTIxfQ.m0Np68lqycnHQoev9oHQ3UJjN-P8tsKeelczHFxL1cE",
 	"user": {
 		"id": 1,
 		"name": "John",
@@ -139,11 +138,5 @@ Principais rotas
 }
 ```
 
-{
-	"user": {
-		"id": 1,
-		"name": "John",
-		"email": "john@email.com"
-	}
-}
+
 
